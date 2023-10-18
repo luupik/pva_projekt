@@ -81,12 +81,16 @@ body {
 
 .btn {
     display: inline-block;
-    color: white;
-    background-color: aqua;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
 }
 
 .btn:hover {
-    background: black;
+    background: gray;
+    color: red;
 }
 
 .btn-dark {
@@ -109,8 +113,8 @@ body {
 }
 
 .container {
-    max-width: 1100px;
-    margin: auto;
+    max-width: 2000px;
+    margin: 8rem 0;
     padding: 0 2rem;
     overflow: hidden;
 }
@@ -137,20 +141,129 @@ body {
     padding: 30rem 0;
 }
 
-.items {
-    display: flex;
+#what .items {
     padding: 1rem;
+    display: block;
 }
 
-.item {
+#what .item {
     text-align: center;
     padding: 1rem;
 }
 
-.items .item i {
+#what .items .item i {
     background: #000000; 
     padding: 2rem;
     border-radius: 30%; 
     margin-bottom: 2rem;
     color: rgb(255, 255, 255);
+}
+
+#what-2 .items {
+    padding: 1rem;
+    display: block;
+}
+
+#what-2 .item {
+    text-align: center;
+    padding: 1rem;
+}
+
+#what-2 .items .item i {
+    background: #000000; 
+    padding: 2rem;
+    border-radius: 30%; 
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#what-3 .items {
+    padding: 1rem;
+    display: block;
+}
+
+#what-3 .item {
+    text-align: center;
+    padding: 1rem;
+}
+
+#what-3 .items .item i {
+    background: #000000; 
+    padding: 2rem;
+    border-radius: 30%; 
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.bg-light {
+    background: white;
+    color: black;
+}
+
+.bg-dark {
+    background: black;
+    color: white;
+    padding: 1rem;
+}
+
+.p-1 {
+    padding: 1.5rem 0;
+}
+
+.p-2 {
+    padding: 2rem 0;
+}
+
+.p-3 {
+    padding: 3rem 0;
+}
+
+#who {
+    padding: 20rem 0;
+}
+
+.list {
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.list-li {
+    padding: 1rem 0;
+}
+
+#who {
+    display: block;
+}
+
+#who div {
+    flex: 1;
+}
+
+.left {
+    display: block;
+    width: 25rem;
+    height: 25rem;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.image {
+    flex-basis: 50%
+} 
+  
+img {
+    max-width: 100%
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-container {
+    text-align: center;
 }
